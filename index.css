@@ -1,0 +1,118 @@
+.dsplayFlex{
+    display: flex;
+}
+
+body{
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(221, 211, 198);
+    margin: 0;
+    gap: 8px;
+}
+
+.navTop{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(3, 68, 3);
+    flex-direction: column;
+}
+
+#navTopInNavTop{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 23%;
+    background-color: rgb(3, 29, 2);
+}
+
+div .pinNavTop{
+    color: aliceblue;
+    margin: 0;
+}
+
+.navTop div{
+    color: #f6f5f5;
+    justify-content: center;
+}
+
+.maynBody{
+    flex-direction: column;
+    height:100% ;
+    gap: 10px;
+}
+
+.maynBodyTop{
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 20%;
+    margin-left: 7px;
+    margin-right:7px ;
+    /* margin: 10px; */
+}
+
+.maynBodyTop h2{
+    margin: 1%;
+}
+.maynBodyTop p{
+    margin: 1%;
+}
+
+.maynBodybothm{
+    flex-direction: row;
+    justify-content: start;
+    background-color: #f6f5f5;
+    height: 100%;
+    border-radius: 10px;
+    /* margin: 10px; */
+    margin-left: 7px;
+    margin-right:7px ;
+    gap: 150px;
+}
+
+.children-maynBodybothm{
+    width: 30%;
+    height: 100%;
+}
+
+.navBothom{
+    flex-direction: column;
+    align-items: center;
+    background-color: #2f5d12;
+    color: #ffffff;
+    height: 4%;    
+}
+
+.navBothom p{
+    margin: 0;
+}
+
+.children-maynbodyleft{
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+}
+
+.links{
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #d7d3d3;
+    border-radius: 7px;
+}
+
+.links div{
+    flex-direction: column;
+}
+
+.links div p{
+    margin: 0;
+    color: #88118c;
+}
+
+.links:hover{
+    background-color: #aea7a7;
+
+}
